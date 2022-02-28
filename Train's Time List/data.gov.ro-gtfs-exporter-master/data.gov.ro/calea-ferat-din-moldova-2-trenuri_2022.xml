@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XmlIf encoding="UTF-8" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="trnIfSchema_v4.xsd">
+    <XmlMts>
+        <Mt DataExport="20211222" MtValabilDeLa="20211212" MtValabilPinaLa="20221210" Versiune="1">
+            <Trenuri>
+                <Tren CategorieTren="IR" KmCum="17561.0" Lungime="350" Numar="1052" Operator="906090" Proprietar="906090" Putere="" Rang="3"
+                    Servicii="2" Tonaj="720">
+                    <Trase>
+                        <Trasa CodStatieFinala="936" CodStatieInitiala="61016" Id="1" Tip="Implicita">
+                            <ElementTrasa Ajustari="0" CodStaDest="61066" CodStaOrigine="61016" DenStaDestinatie="Holboca Hm." DenStaOrigine="Socola"
+                                Km="6918" Lungime="350" OraP="63600" OraS="64260" Rci="IR" Rco="IR" Restrictie="0" Secventa="1" StationareSecunde="0"
+                                TipOprire="N" Tonaj="720" VitezaLivret="80"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61080" CodStaOrigine="61066" DenStaDestinatie="Cristeşti Jijia"
+                                DenStaOrigine="Holboca Hm." Km="3544" Lungime="350" OraP="64260" OraS="64740" Rci="IR" Rco="IR" Restrictie="0"
+                                Secventa="2" StationareSecunde="0" TipOprire="N" Tonaj="720" VitezaLivret="80"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61092" CodStaOrigine="61080" DenStaDestinatie="Ungheni Prut Hm."
+                                DenStaOrigine="Cristeşti Jijia" Km="6053" Lungime="350" OraP="64800" OraS="65400" Rci="IR" Rco="IR" Restrictie="120"
+                                Secventa="3" StationareSecunde="60" TipOprire="C" Tonaj="720" VitezaLivret="80"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="936" CodStaOrigine="61092" DenStaDestinatie="Ungheni Prut Fr."
+                                DenStaOrigine="Ungheni Prut Hm." Km="246" Lungime="350" OraP="67800" OraS="67980" Rci="IR" Rco="IR" Restrictie="0"
+                                Secventa="4" StationareSecunde="2400" TipOprire="C" Tonaj="720" VitezaLivret="40"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="936" CodStaOrigine="936" DenStaDestinatie="Ungheni"
+                                DenStaOrigine="Ungheni Prut Fr." Km="800" Lungime="350" OraP="68040" OraS="68220" Rci="IR" Rco="IR" Restrictie="0"
+                                Secventa="5" StationareSecunde="60" TipOprire="C" Tonaj="720" VitezaLivret="40"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="936" CodStaOrigine="936" DenStaDestinatie="Ungheni" DenStaOrigine="Ungheni" Km="0"
+                                Lungime="350" OraP="68220" OraS="68220" Rci="IR" Rco="IR" Restrictie="0" Secventa="6" StationareSecunde="0"
+                                TipOprire="N" Tonaj="720" VitezaLivret="0"/>
+                            <ModificariInParcurs/>
+                        </Trasa>
+                    </Trase>
+                    <Grupe/>
+                    <RestrictiiTren>
+                        <CalendarTren DeLa="20211212" Id="1" PinaLa="20221210" Tip="Da" Zile="368"/>
+                    </RestrictiiTren>
+                </Tren>
+                <Tren CategorieTren="IR" KmCum="17561.0" Lungime="175" Numar="1051" Operator="906090" Proprietar="906090" Putere="" Rang="3"
+                    Servicii="2" Tonaj="350">
+                    <Trase>
+                        <Trasa CodStatieFinala="61016" CodStatieInitiala="936" Id="1" Tip="Implicita">
+                            <ElementTrasa Ajustari="0" CodStaDest="936" CodStaOrigine="936" DenStaDestinatie="Ungheni Prut Fr."
+                                DenStaOrigine="Ungheni" Km="800" Lungime="175" OraP="35460" OraS="35640" Rci="IR" Rco="IR" Restrictie="0" Secventa="1"
+                                StationareSecunde="0" TipOprire="N" Tonaj="350" VitezaLivret="40"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61092" CodStaOrigine="936" DenStaDestinatie="Ungheni Prut Hm."
+                                DenStaOrigine="Ungheni Prut Fr." Km="246" Lungime="175" OraP="35700" OraS="35880" Rci="IR" Rco="IR" Restrictie="0"
+                                Secventa="2" StationareSecunde="60" TipOprire="C" Tonaj="350" VitezaLivret="40"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61080" CodStaOrigine="61092" DenStaDestinatie="Cristeşti Jijia"
+                                DenStaOrigine="Ungheni Prut Hm." Km="6053" Lungime="175" OraP="38280" OraS="38940" Rci="IR" Rco="IR" Restrictie="0"
+                                Secventa="3" StationareSecunde="2400" TipOprire="C" Tonaj="350" VitezaLivret="80"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61066" CodStaOrigine="61080" DenStaDestinatie="Holboca Hm."
+                                DenStaOrigine="Cristeşti Jijia" Km="3544" Lungime="175" OraP="39000" OraS="39540" Rci="IR" Rco="IR" Restrictie="0"
+                                Secventa="4" StationareSecunde="60" TipOprire="C" Tonaj="350" VitezaLivret="80"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61016" CodStaOrigine="61066" DenStaDestinatie="Socola" DenStaOrigine="Holboca Hm."
+                                Km="6918" Lungime="175" OraP="39540" OraS="40380" Rci="IR" Rco="IR" Restrictie="120" Secventa="5"
+                                StationareSecunde="0" TipOprire="N" Tonaj="350" VitezaLivret="80"/>
+                            <ElementTrasa Ajustari="0" CodStaDest="61016" CodStaOrigine="61016" DenStaDestinatie="Socola" DenStaOrigine="Socola"
+                                Km="0" Lungime="175" OraP="40380" OraS="40380" Rci="IR" Rco="IR" Restrictie="0" Secventa="6" StationareSecunde="0"
+                                TipOprire="N" Tonaj="350" VitezaLivret="0"/>
+                            <ModificariInParcurs/>
+                        </Trasa>
+                    </Trase>
+                    <Grupe/>
+                    <RestrictiiTren>
+                        <CalendarTren DeLa="20211212" Id="1" PinaLa="20221210" Tip="Da" Zile="368"/>
+                    </RestrictiiTren>
+                </Tren>
+            </Trenuri>
+        </Mt>
+    </XmlMts>
+</XmlIf>
